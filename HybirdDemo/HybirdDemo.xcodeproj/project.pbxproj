@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44062DC724BC5CAA004DF7F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44062DC624BC5CAA004DF7F8 /* AppDelegate.m */; };
+		44062DCA24BC5CAA004DF7F8 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44062DC924BC5CAA004DF7F8 /* SceneDelegate.m */; };
+		44062DCD24BC5CAA004DF7F8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44062DCC24BC5CAA004DF7F8 /* ViewController.m */; };
+		44062DD024BC5CAA004DF7F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44062DCE24BC5CAA004DF7F8 /* Main.storyboard */; };
+		44062DD224BC5CAC004DF7F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44062DD124BC5CAC004DF7F8 /* Assets.xcassets */; };
+		44062DD524BC5CAC004DF7F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44062DD324BC5CAC004DF7F8 /* LaunchScreen.storyboard */; };
+		44062DD824BC5CAC004DF7F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44062DD724BC5CAC004DF7F8 /* main.m */; };
+		44062E0C24BC5CCA004DF7F8 /* UIDevice+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 44062DE124BC5CCA004DF7F8 /* UIDevice+Extensions.m */; };
+		44062E0D24BC5CCA004DF7F8 /* CDVPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 44062DE224BC5CCA004DF7F8 /* CDVPlugin.m */; };
+		44062E0E24BC5CCA004DF7F8 /* CDVCommandQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 44062DE424BC5CCA004DF7F8 /* CDVCommandQueue.m */; };
+		44062E0F24BC5CCA004DF7F8 /* CDVWebViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44062DE624BC5CCA004DF7F8 /* CDVWebViewDelegate.m */; };
+		44062E1024BC5CCA004DF7F8 /* CDVInvokedUrlCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 44062DE724BC5CCA004DF7F8 /* CDVInvokedUrlCommand.m */; };
+		44062E1124BC5CCA004DF7F8 /* NSArray+Comparisons.m in Sources */ = {isa = PBXBuildFile; fileRef = 44062DE824BC5CCA004DF7F8 /* NSArray+Comparisons.m */; };
+		44062E1224BC5CCA004DF7F8 /* CDVCommandDelegateImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 44062DE924BC5CCA004DF7F8 /* CDVCommandDelegateImpl.m */; };
+		44062E1324BC5CCA004DF7F8 /* CDVLocalStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 44062DED24BC5CCA004DF7F8 /* CDVLocalStorage.m */; };
+		44062E1424BC5CCA004DF7F8 /* CDVTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 44062DEF24BC5CCA004DF7F8 /* CDVTimer.m */; };
+		44062E1524BC5CCA004DF7F8 /* CDVUserAgentUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 44062DF624BC5CCA004DF7F8 /* CDVUserAgentUtil.m */; };
+		44062E1624BC5CCA004DF7F8 /* CDVWhitelist.m in Sources */ = {isa = PBXBuildFile; fileRef = 44062DF924BC5CCA004DF7F8 /* CDVWhitelist.m */; };
+		44062E1724BC5CCA004DF7F8 /* CDVPluginResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 44062E0024BC5CCA004DF7F8 /* CDVPluginResult.m */; };
+		44062E1824BC5CCA004DF7F8 /* CDVConfigParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 44062E0424BC5CCA004DF7F8 /* CDVConfigParser.m */; };
+		44062E1924BC5CCA004DF7F8 /* CDVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44062E0524BC5CCA004DF7F8 /* CDVViewController.m */; };
+		44062E1A24BC5CCA004DF7F8 /* NSDictionary+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 44062E0724BC5CCA004DF7F8 /* NSDictionary+Extensions.m */; };
+		44062E1B24BC5CCA004DF7F8 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 44062E0824BC5CCA004DF7F8 /* Info.plist */; };
+		44062E1C24BC5CCA004DF7F8 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 44062E0924BC5CCA004DF7F8 /* NSData+Base64.m */; };
+		44062E1D24BC5CCA004DF7F8 /* NSMutableArray+QueueAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 44062E0A24BC5CCA004DF7F8 /* NSMutableArray+QueueAdditions.m */; };
+		44062E1E24BC5CCA004DF7F8 /* CDVJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 44062E0B24BC5CCA004DF7F8 /* CDVJSON.m */; };
+		44062E1F24BC5E2A004DF7F8 /* Hybird.h in Sources */ = {isa = PBXBuildFile; fileRef = 44062DDF24BC5CC9004DF7F8 /* Hybird.h */; };
+		44062E2024BC5E2A004DF7F8 /* CDVWhitelist.h in Sources */ = {isa = PBXBuildFile; fileRef = 44062DE024BC5CCA004DF7F8 /* CDVWhitelist.h */; };
+		44062E2124BC5E2A004DF7F8 /* CDVUserAgentUtil.h in Sources */ = {isa = PBXBuildFile; fileRef = 44062DE324BC5CCA004DF7F8 /* CDVUserAgentUtil.h */; };
+		44062E2224BC5E2A004DF7F8 /* CDVPluginResult.h in Sources */ = {isa = PBXBuildFile; fileRef = 44062DE524BC5CCA004DF7F8 /* CDVPluginResult.h */; };
+		44062E2324BC5E2A004DF7F8 /* CDVAvailability.h in Sources */ = {isa = PBXBuildFile; fileRef = 44062DEA24BC5CCA004DF7F8 /* CDVAvailability.h */; };
+		44062E2424BC5E2A004DF7F8 /* CDVViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 44062DEB24BC5CCA004DF7F8 /* CDVViewController.h */; };
+		44062E2524BC5E2A004DF7F8 /* CDVConfigParser.h in Sources */ = {isa = PBXBuildFile; fileRef = 44062DEC24BC5CCA004DF7F8 /* CDVConfigParser.h */; };
+		44062E2624BC5E2A004DF7F8 /* CDVDebug.h in Sources */ = {isa = PBXBuildFile; fileRef = 44062DEE24BC5CCA004DF7F8 /* CDVDebug.h */; };
+		44062E2724BC5E2A004DF7F8 /* NSMutableArray+QueueAdditions.h in Sources */ = {isa = PBXBuildFile; fileRef = 44062DF024BC5CCA004DF7F8 /* NSMutableArray+QueueAdditions.h */; };
+		44062E2824BC5E2A004DF7F8 /* CDVJSON.h in Sources */ = {isa = PBXBuildFile; fileRef = 44062DF124BC5CCA004DF7F8 /* CDVJSON.h */; };
+		44062E2924BC5E2A004DF7F8 /* CDVScreenOrientationDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 44062DF224BC5CCA004DF7F8 /* CDVScreenOrientationDelegate.h */; };
+		44062E2A24BC5E2A004DF7F8 /* CDV.h in Sources */ = {isa = PBXBuildFile; fileRef = 44062DF324BC5CCA004DF7F8 /* CDV.h */; };
+		44062E2B24BC5E2A004DF7F8 /* NSData+Base64.h in Sources */ = {isa = PBXBuildFile; fileRef = 44062DF424BC5CCA004DF7F8 /* NSData+Base64.h */; };
+		44062E2C24BC5E2B004DF7F8 /* NSDictionary+Extensions.h in Sources */ = {isa = PBXBuildFile; fileRef = 44062DF524BC5CCA004DF7F8 /* NSDictionary+Extensions.h */; };
+		44062E2D24BC5E2B004DF7F8 /* CDVPlugin.h in Sources */ = {isa = PBXBuildFile; fileRef = 44062DF724BC5CCA004DF7F8 /* CDVPlugin.h */; };
+		44062E2E24BC5E2B004DF7F8 /* UIDevice+Extensions.h in Sources */ = {isa = PBXBuildFile; fileRef = 44062DF824BC5CCA004DF7F8 /* UIDevice+Extensions.h */; };
+		44062E2F24BC5E2B004DF7F8 /* CDVCommandDelegateImpl.h in Sources */ = {isa = PBXBuildFile; fileRef = 44062DFA24BC5CCA004DF7F8 /* CDVCommandDelegateImpl.h */; };
+		44062E3024BC5E2B004DF7F8 /* NSArray+Comparisons.h in Sources */ = {isa = PBXBuildFile; fileRef = 44062DFB24BC5CCA004DF7F8 /* NSArray+Comparisons.h */; };
+		44062E3124BC5E2B004DF7F8 /* CDVInvokedUrlCommand.h in Sources */ = {isa = PBXBuildFile; fileRef = 44062DFC24BC5CCA004DF7F8 /* CDVInvokedUrlCommand.h */; };
+		44062E3224BC5E2B004DF7F8 /* CDVWebViewDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 44062DFD24BC5CCA004DF7F8 /* CDVWebViewDelegate.h */; };
+		44062E3324BC5E2B004DF7F8 /* CDVShared.h in Sources */ = {isa = PBXBuildFile; fileRef = 44062DFE24BC5CCA004DF7F8 /* CDVShared.h */; };
+		44062E3424BC5E2B004DF7F8 /* CDVCommandQueue.h in Sources */ = {isa = PBXBuildFile; fileRef = 44062DFF24BC5CCA004DF7F8 /* CDVCommandQueue.h */; };
+		44062E3524BC5E2B004DF7F8 /* CDVCommandDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 44062E0124BC5CCA004DF7F8 /* CDVCommandDelegate.h */; };
+		44062E3624BC5E2B004DF7F8 /* CDVTimer.h in Sources */ = {isa = PBXBuildFile; fileRef = 44062E0224BC5CCA004DF7F8 /* CDVTimer.h */; };
+		44062E3724BC5E2B004DF7F8 /* CDVLocalStorage.h in Sources */ = {isa = PBXBuildFile; fileRef = 44062E0324BC5CCA004DF7F8 /* CDVLocalStorage.h */; };
+		44062E3824BC5E2B004DF7F8 /* CDVURLProtocol.h in Sources */ = {isa = PBXBuildFile; fileRef = 44062E0624BC5CCA004DF7F8 /* CDVURLProtocol.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		44062DC224BC5CAA004DF7F8 /* HybirdDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HybirdDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44062DC524BC5CAA004DF7F8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		44062DC624BC5CAA004DF7F8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		44062DC824BC5CAA004DF7F8 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		44062DC924BC5CAA004DF7F8 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		44062DCB24BC5CAA004DF7F8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		44062DCC24BC5CAA004DF7F8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		44062DCF24BC5CAA004DF7F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44062DD124BC5CAC004DF7F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44062DD424BC5CAC004DF7F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		44062DD624BC5CAC004DF7F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44062DD724BC5CAC004DF7F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		44062DDF24BC5CC9004DF7F8 /* Hybird.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hybird.h; sourceTree = "<group>"; };
+		44062DE024BC5CCA004DF7F8 /* CDVWhitelist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVWhitelist.h; sourceTree = "<group>"; };
+		44062DE124BC5CCA004DF7F8 /* UIDevice+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Extensions.m"; sourceTree = "<group>"; };
+		44062DE224BC5CCA004DF7F8 /* CDVPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVPlugin.m; sourceTree = "<group>"; };
+		44062DE324BC5CCA004DF7F8 /* CDVUserAgentUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVUserAgentUtil.h; sourceTree = "<group>"; };
+		44062DE424BC5CCA004DF7F8 /* CDVCommandQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVCommandQueue.m; sourceTree = "<group>"; };
+		44062DE524BC5CCA004DF7F8 /* CDVPluginResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVPluginResult.h; sourceTree = "<group>"; };
+		44062DE624BC5CCA004DF7F8 /* CDVWebViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVWebViewDelegate.m; sourceTree = "<group>"; };
+		44062DE724BC5CCA004DF7F8 /* CDVInvokedUrlCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVInvokedUrlCommand.m; sourceTree = "<group>"; };
+		44062DE824BC5CCA004DF7F8 /* NSArray+Comparisons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Comparisons.m"; sourceTree = "<group>"; };
+		44062DE924BC5CCA004DF7F8 /* CDVCommandDelegateImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVCommandDelegateImpl.m; sourceTree = "<group>"; };
+		44062DEA24BC5CCA004DF7F8 /* CDVAvailability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVAvailability.h; sourceTree = "<group>"; };
+		44062DEB24BC5CCA004DF7F8 /* CDVViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVViewController.h; sourceTree = "<group>"; };
+		44062DEC24BC5CCA004DF7F8 /* CDVConfigParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVConfigParser.h; sourceTree = "<group>"; };
+		44062DED24BC5CCA004DF7F8 /* CDVLocalStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVLocalStorage.m; sourceTree = "<group>"; };
+		44062DEE24BC5CCA004DF7F8 /* CDVDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVDebug.h; sourceTree = "<group>"; };
+		44062DEF24BC5CCA004DF7F8 /* CDVTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVTimer.m; sourceTree = "<group>"; };
+		44062DF024BC5CCA004DF7F8 /* NSMutableArray+QueueAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+QueueAdditions.h"; sourceTree = "<group>"; };
+		44062DF124BC5CCA004DF7F8 /* CDVJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVJSON.h; sourceTree = "<group>"; };
+		44062DF224BC5CCA004DF7F8 /* CDVScreenOrientationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVScreenOrientationDelegate.h; sourceTree = "<group>"; };
+		44062DF324BC5CCA004DF7F8 /* CDV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDV.h; sourceTree = "<group>"; };
+		44062DF424BC5CCA004DF7F8 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		44062DF524BC5CCA004DF7F8 /* NSDictionary+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Extensions.h"; sourceTree = "<group>"; };
+		44062DF624BC5CCA004DF7F8 /* CDVUserAgentUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVUserAgentUtil.m; sourceTree = "<group>"; };
+		44062DF724BC5CCA004DF7F8 /* CDVPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVPlugin.h; sourceTree = "<group>"; };
+		44062DF824BC5CCA004DF7F8 /* UIDevice+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Extensions.h"; sourceTree = "<group>"; };
+		44062DF924BC5CCA004DF7F8 /* CDVWhitelist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVWhitelist.m; sourceTree = "<group>"; };
+		44062DFA24BC5CCA004DF7F8 /* CDVCommandDelegateImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVCommandDelegateImpl.h; sourceTree = "<group>"; };
+		44062DFB24BC5CCA004DF7F8 /* NSArray+Comparisons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Comparisons.h"; sourceTree = "<group>"; };
+		44062DFC24BC5CCA004DF7F8 /* CDVInvokedUrlCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVInvokedUrlCommand.h; sourceTree = "<group>"; };
+		44062DFD24BC5CCA004DF7F8 /* CDVWebViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVWebViewDelegate.h; sourceTree = "<group>"; };
+		44062DFE24BC5CCA004DF7F8 /* CDVShared.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVShared.h; sourceTree = "<group>"; };
+		44062DFF24BC5CCA004DF7F8 /* CDVCommandQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVCommandQueue.h; sourceTree = "<group>"; };
+		44062E0024BC5CCA004DF7F8 /* CDVPluginResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVPluginResult.m; sourceTree = "<group>"; };
+		44062E0124BC5CCA004DF7F8 /* CDVCommandDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVCommandDelegate.h; sourceTree = "<group>"; };
+		44062E0224BC5CCA004DF7F8 /* CDVTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVTimer.h; sourceTree = "<group>"; };
+		44062E0324BC5CCA004DF7F8 /* CDVLocalStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVLocalStorage.h; sourceTree = "<group>"; };
+		44062E0424BC5CCA004DF7F8 /* CDVConfigParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVConfigParser.m; sourceTree = "<group>"; };
+		44062E0524BC5CCA004DF7F8 /* CDVViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVViewController.m; sourceTree = "<group>"; };
+		44062E0624BC5CCA004DF7F8 /* CDVURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDVURLProtocol.h; sourceTree = "<group>"; };
+		44062E0724BC5CCA004DF7F8 /* NSDictionary+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Extensions.m"; sourceTree = "<group>"; };
+		44062E0824BC5CCA004DF7F8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44062E0924BC5CCA004DF7F8 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		44062E0A24BC5CCA004DF7F8 /* NSMutableArray+QueueAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+QueueAdditions.m"; sourceTree = "<group>"; };
+		44062E0B24BC5CCA004DF7F8 /* CDVJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDVJSON.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44062DBF24BC5CAA004DF7F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44062DB924BC5CAA004DF7F8 = {
+			isa = PBXGroup;
+			children = (
+				44062DC424BC5CAA004DF7F8 /* HybirdDemo */,
+				44062DC324BC5CAA004DF7F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44062DC324BC5CAA004DF7F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44062DC224BC5CAA004DF7F8 /* HybirdDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44062DC424BC5CAA004DF7F8 /* HybirdDemo */ = {
+			isa = PBXGroup;
+			children = (
+				44062DC524BC5CAA004DF7F8 /* AppDelegate.h */,
+				44062DC624BC5CAA004DF7F8 /* AppDelegate.m */,
+				44062DC824BC5CAA004DF7F8 /* SceneDelegate.h */,
+				44062DC924BC5CAA004DF7F8 /* SceneDelegate.m */,
+				44062DCB24BC5CAA004DF7F8 /* ViewController.h */,
+				44062DCC24BC5CAA004DF7F8 /* ViewController.m */,
+				44062DDE24BC5CC9004DF7F8 /* Hybird */,
+				44062DCE24BC5CAA004DF7F8 /* Main.storyboard */,
+				44062DD124BC5CAC004DF7F8 /* Assets.xcassets */,
+				44062DD324BC5CAC004DF7F8 /* LaunchScreen.storyboard */,
+				44062DD624BC5CAC004DF7F8 /* Info.plist */,
+				44062DD724BC5CAC004DF7F8 /* main.m */,
+			);
+			path = HybirdDemo;
+			sourceTree = "<group>";
+		};
+		44062DDE24BC5CC9004DF7F8 /* Hybird */ = {
+			isa = PBXGroup;
+			children = (
+				44062DDF24BC5CC9004DF7F8 /* Hybird.h */,
+				44062DE024BC5CCA004DF7F8 /* CDVWhitelist.h */,
+				44062DE124BC5CCA004DF7F8 /* UIDevice+Extensions.m */,
+				44062DE224BC5CCA004DF7F8 /* CDVPlugin.m */,
+				44062DE324BC5CCA004DF7F8 /* CDVUserAgentUtil.h */,
+				44062DE424BC5CCA004DF7F8 /* CDVCommandQueue.m */,
+				44062DE524BC5CCA004DF7F8 /* CDVPluginResult.h */,
+				44062DE624BC5CCA004DF7F8 /* CDVWebViewDelegate.m */,
+				44062DE724BC5CCA004DF7F8 /* CDVInvokedUrlCommand.m */,
+				44062DE824BC5CCA004DF7F8 /* NSArray+Comparisons.m */,
+				44062DE924BC5CCA004DF7F8 /* CDVCommandDelegateImpl.m */,
+				44062DEA24BC5CCA004DF7F8 /* CDVAvailability.h */,
+				44062DEB24BC5CCA004DF7F8 /* CDVViewController.h */,
+				44062DEC24BC5CCA004DF7F8 /* CDVConfigParser.h */,
+				44062DED24BC5CCA004DF7F8 /* CDVLocalStorage.m */,
+				44062DEE24BC5CCA004DF7F8 /* CDVDebug.h */,
+				44062DEF24BC5CCA004DF7F8 /* CDVTimer.m */,
+				44062DF024BC5CCA004DF7F8 /* NSMutableArray+QueueAdditions.h */,
+				44062DF124BC5CCA004DF7F8 /* CDVJSON.h */,
+				44062DF224BC5CCA004DF7F8 /* CDVScreenOrientationDelegate.h */,
+				44062DF324BC5CCA004DF7F8 /* CDV.h */,
+				44062DF424BC5CCA004DF7F8 /* NSData+Base64.h */,
+				44062DF524BC5CCA004DF7F8 /* NSDictionary+Extensions.h */,
+				44062DF624BC5CCA004DF7F8 /* CDVUserAgentUtil.m */,
+				44062DF724BC5CCA004DF7F8 /* CDVPlugin.h */,
+				44062DF824BC5CCA004DF7F8 /* UIDevice+Extensions.h */,
+				44062DF924BC5CCA004DF7F8 /* CDVWhitelist.m */,
+				44062DFA24BC5CCA004DF7F8 /* CDVCommandDelegateImpl.h */,
+				44062DFB24BC5CCA004DF7F8 /* NSArray+Comparisons.h */,
+				44062DFC24BC5CCA004DF7F8 /* CDVInvokedUrlCommand.h */,
+				44062DFD24BC5CCA004DF7F8 /* CDVWebViewDelegate.h */,
+				44062DFE24BC5CCA004DF7F8 /* CDVShared.h */,
+				44062DFF24BC5CCA004DF7F8 /* CDVCommandQueue.h */,
+				44062E0024BC5CCA004DF7F8 /* CDVPluginResult.m */,
+				44062E0124BC5CCA004DF7F8 /* CDVCommandDelegate.h */,
+				44062E0224BC5CCA004DF7F8 /* CDVTimer.h */,
+				44062E0324BC5CCA004DF7F8 /* CDVLocalStorage.h */,
+				44062E0424BC5CCA004DF7F8 /* CDVConfigParser.m */,
+				44062E0524BC5CCA004DF7F8 /* CDVViewController.m */,
+				44062E0624BC5CCA004DF7F8 /* CDVURLProtocol.h */,
+				44062E0724BC5CCA004DF7F8 /* NSDictionary+Extensions.m */,
+				44062E0824BC5CCA004DF7F8 /* Info.plist */,
+				44062E0924BC5CCA004DF7F8 /* NSData+Base64.m */,
+				44062E0A24BC5CCA004DF7F8 /* NSMutableArray+QueueAdditions.m */,
+				44062E0B24BC5CCA004DF7F8 /* CDVJSON.m */,
+			);
+			name = Hybird;
+			path = ../../Hybird;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44062DC124BC5CAA004DF7F8 /* HybirdDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44062DDB24BC5CAC004DF7F8 /* Build configuration list for PBXNativeTarget "HybirdDemo" */;
+			buildPhases = (
+				44062DBE24BC5CAA004DF7F8 /* Sources */,
+				44062DBF24BC5CAA004DF7F8 /* Frameworks */,
+				44062DC024BC5CAA004DF7F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HybirdDemo;
+			productName = HybirdDemo;
+			productReference = 44062DC224BC5CAA004DF7F8 /* HybirdDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44062DBA24BC5CAA004DF7F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = HanYong;
+				TargetAttributes = {
+					44062DC124BC5CAA004DF7F8 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 44062DBD24BC5CAA004DF7F8 /* Build configuration list for PBXProject "HybirdDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44062DB924BC5CAA004DF7F8;
+			productRefGroup = 44062DC324BC5CAA004DF7F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44062DC124BC5CAA004DF7F8 /* HybirdDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44062DC024BC5CAA004DF7F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44062E1B24BC5CCA004DF7F8 /* Info.plist in Resources */,
+				44062DD524BC5CAC004DF7F8 /* LaunchScreen.storyboard in Resources */,
+				44062DD224BC5CAC004DF7F8 /* Assets.xcassets in Resources */,
+				44062DD024BC5CAA004DF7F8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44062DBE24BC5CAA004DF7F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44062E1F24BC5E2A004DF7F8 /* Hybird.h in Sources */,
+				44062E2024BC5E2A004DF7F8 /* CDVWhitelist.h in Sources */,
+				44062E2124BC5E2A004DF7F8 /* CDVUserAgentUtil.h in Sources */,
+				44062E2224BC5E2A004DF7F8 /* CDVPluginResult.h in Sources */,
+				44062E2324BC5E2A004DF7F8 /* CDVAvailability.h in Sources */,
+				44062E2424BC5E2A004DF7F8 /* CDVViewController.h in Sources */,
+				44062E2524BC5E2A004DF7F8 /* CDVConfigParser.h in Sources */,
+				44062E2624BC5E2A004DF7F8 /* CDVDebug.h in Sources */,
+				44062E2724BC5E2A004DF7F8 /* NSMutableArray+QueueAdditions.h in Sources */,
+				44062E2824BC5E2A004DF7F8 /* CDVJSON.h in Sources */,
+				44062E2924BC5E2A004DF7F8 /* CDVScreenOrientationDelegate.h in Sources */,
+				44062E2A24BC5E2A004DF7F8 /* CDV.h in Sources */,
+				44062E2B24BC5E2A004DF7F8 /* NSData+Base64.h in Sources */,
+				44062E2C24BC5E2B004DF7F8 /* NSDictionary+Extensions.h in Sources */,
+				44062E2D24BC5E2B004DF7F8 /* CDVPlugin.h in Sources */,
+				44062E2E24BC5E2B004DF7F8 /* UIDevice+Extensions.h in Sources */,
+				44062E2F24BC5E2B004DF7F8 /* CDVCommandDelegateImpl.h in Sources */,
+				44062E3024BC5E2B004DF7F8 /* NSArray+Comparisons.h in Sources */,
+				44062E3124BC5E2B004DF7F8 /* CDVInvokedUrlCommand.h in Sources */,
+				44062E3224BC5E2B004DF7F8 /* CDVWebViewDelegate.h in Sources */,
+				44062E3324BC5E2B004DF7F8 /* CDVShared.h in Sources */,
+				44062E3424BC5E2B004DF7F8 /* CDVCommandQueue.h in Sources */,
+				44062E3524BC5E2B004DF7F8 /* CDVCommandDelegate.h in Sources */,
+				44062E3624BC5E2B004DF7F8 /* CDVTimer.h in Sources */,
+				44062E3724BC5E2B004DF7F8 /* CDVLocalStorage.h in Sources */,
+				44062E3824BC5E2B004DF7F8 /* CDVURLProtocol.h in Sources */,
+				44062E0F24BC5CCA004DF7F8 /* CDVWebViewDelegate.m in Sources */,
+				44062DCD24BC5CAA004DF7F8 /* ViewController.m in Sources */,
+				44062E1024BC5CCA004DF7F8 /* CDVInvokedUrlCommand.m in Sources */,
+				44062E1424BC5CCA004DF7F8 /* CDVTimer.m in Sources */,
+				44062E1524BC5CCA004DF7F8 /* CDVUserAgentUtil.m in Sources */,
+				44062E1624BC5CCA004DF7F8 /* CDVWhitelist.m in Sources */,
+				44062DC724BC5CAA004DF7F8 /* AppDelegate.m in Sources */,
+				44062E1724BC5CCA004DF7F8 /* CDVPluginResult.m in Sources */,
+				44062E1224BC5CCA004DF7F8 /* CDVCommandDelegateImpl.m in Sources */,
+				44062E1324BC5CCA004DF7F8 /* CDVLocalStorage.m in Sources */,
+				44062E1A24BC5CCA004DF7F8 /* NSDictionary+Extensions.m in Sources */,
+				44062E1924BC5CCA004DF7F8 /* CDVViewController.m in Sources */,
+				44062E1824BC5CCA004DF7F8 /* CDVConfigParser.m in Sources */,
+				44062E1D24BC5CCA004DF7F8 /* NSMutableArray+QueueAdditions.m in Sources */,
+				44062DD824BC5CAC004DF7F8 /* main.m in Sources */,
+				44062E1124BC5CCA004DF7F8 /* NSArray+Comparisons.m in Sources */,
+				44062E0C24BC5CCA004DF7F8 /* UIDevice+Extensions.m in Sources */,
+				44062E0D24BC5CCA004DF7F8 /* CDVPlugin.m in Sources */,
+				44062E1C24BC5CCA004DF7F8 /* NSData+Base64.m in Sources */,
+				44062DCA24BC5CAA004DF7F8 /* SceneDelegate.m in Sources */,
+				44062E0E24BC5CCA004DF7F8 /* CDVCommandQueue.m in Sources */,
+				44062E1E24BC5CCA004DF7F8 /* CDVJSON.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		44062DCE24BC5CAA004DF7F8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44062DCF24BC5CAA004DF7F8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		44062DD324BC5CAC004DF7F8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44062DD424BC5CAC004DF7F8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44062DD924BC5CAC004DF7F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		44062DDA24BC5CAC004DF7F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44062DDC24BC5CAC004DF7F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G82574ATF5;
+				INFOPLIST_FILE = HybirdDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hanyong.HybirdDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		44062DDD24BC5CAC004DF7F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G82574ATF5;
+				INFOPLIST_FILE = HybirdDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hanyong.HybirdDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44062DBD24BC5CAA004DF7F8 /* Build configuration list for PBXProject "HybirdDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44062DD924BC5CAC004DF7F8 /* Debug */,
+				44062DDA24BC5CAC004DF7F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44062DDB24BC5CAC004DF7F8 /* Build configuration list for PBXNativeTarget "HybirdDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44062DDC24BC5CAC004DF7F8 /* Debug */,
+				44062DDD24BC5CAC004DF7F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44062DBA24BC5CAA004DF7F8 /* Project object */;
+}
